@@ -1,0 +1,8 @@
+prefix=/home/cgvlab/catkin_ws/install
+
+Name: vec3_to_cmd
+Description: Description of vec3_to_cmd
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

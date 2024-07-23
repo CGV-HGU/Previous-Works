@@ -1,0 +1,8 @@
+prefix=/home/cgvlab/catkin_ws/install
+
+Name: run_omorobot
+Description: Description of run_omorobot
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

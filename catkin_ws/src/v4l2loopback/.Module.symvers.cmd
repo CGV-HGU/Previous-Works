@@ -1,0 +1,1 @@
+cmd_/home/cgvlab/catkin_ws/src/v4l2loopback/Module.symvers := sed 's/\.ko$$/\.o/' /home/cgvlab/catkin_ws/src/v4l2loopback/modules.order | scripts/mod/modpost -m -a  -o /home/cgvlab/catkin_ws/src/v4l2loopback/Module.symvers -e -i Module.symvers   -T -

@@ -1,0 +1,8 @@
+prefix=/home/cgvlab/catkin_ws/install
+
+Name: bool_sub
+Description: Description of bool_sub
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

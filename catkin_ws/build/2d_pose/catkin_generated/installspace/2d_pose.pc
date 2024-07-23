@@ -1,0 +1,8 @@
+prefix=/home/cgvlab/catkin_ws/install
+
+Name: 2d_pose
+Description: Description of 2d_pose
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/cgvlab/catkin_ws/src/hybrid_a_star_ws/install/setup.sh

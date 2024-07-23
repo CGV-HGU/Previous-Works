@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/libuvc/libuvc.h
+stdio.h
+-
+stdint.h
+-
+sys/time.h
+-
+libuvc/libuvc_config.h
+-
+
+/home/cgvlab/catkin_ws/src/theta_z1/libuvc-theta/src/example.c
+libuvc/libuvc.h
+/home/cgvlab/catkin_ws/src/theta_z1/libuvc-theta/src/libuvc/libuvc.h
+stdio.h
+-
+unistd.h
+-
+
+include/libuvc/libuvc_config.h
+

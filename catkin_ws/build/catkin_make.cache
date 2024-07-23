@@ -1,0 +1,2 @@
+hybrid_a_star_ws/src/Hybrid_A_Star
+-DCATKIN_DEVEL_PREFIX=/home/cgvlab/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/cgvlab/catkin_ws/install -DCATKIN_WHITELIST_PACKAGES=hybrid_a_star -G Unix Makefiles

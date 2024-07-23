@@ -1,0 +1,11 @@
+topics:
+  /camera_pose:
+    - name: /initialpose
+      type: geometry_msgs/PoseWithCovarianceStamped
+      mappings:
+        - from: header.stamp
+          to: header.stamp
+        - from: pose.pose
+          to: pose.pose
+        - from: pose.covariance
+          to: pose.covariance

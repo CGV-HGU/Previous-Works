@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG  -rdynamic CMakeFiles/example.dir/src/example.c.o  -o example  -Wl,-rpath,/home/cgvlab/catkin_ws/src/theta_z1/libuvc-theta/build libuvc.so.0.0.6 -lpthread 

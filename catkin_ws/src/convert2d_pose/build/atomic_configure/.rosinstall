@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/cgvlab/catkin_ws/src/convert2d_pose/build/devel/setup.sh

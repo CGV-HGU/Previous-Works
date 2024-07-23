@@ -1,0 +1,8 @@
+prefix=/home/cgvlab/catkin_ws/build/devel
+
+Name: omo_r1_slam
+Description: Description of omo_r1_slam
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp sensor_msgs

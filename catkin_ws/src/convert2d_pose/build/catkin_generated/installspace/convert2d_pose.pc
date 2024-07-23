@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: convert2d_pose
+Description: Description of convert2d_pose
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

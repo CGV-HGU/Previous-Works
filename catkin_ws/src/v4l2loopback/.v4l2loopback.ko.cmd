@@ -1,0 +1,1 @@
+cmd_/home/cgvlab/catkin_ws/src/v4l2loopback/v4l2loopback.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/cgvlab/catkin_ws/src/v4l2loopback/v4l2loopback.ko /home/cgvlab/catkin_ws/src/v4l2loopback/v4l2loopback.o /home/cgvlab/catkin_ws/src/v4l2loopback/v4l2loopback.mod.o;  true
