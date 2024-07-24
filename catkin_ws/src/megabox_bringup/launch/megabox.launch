@@ -25,10 +25,10 @@
   <include file='$(find hybrid_a_star)/launch/run_hybrid_a_star.launch'/>
 
   <!-- Vec3 subscriber 실행 -->  
-  <node name="vec3_sub" pkg="vec3_to_cmd" type="vec3_subscribe_moveToBase_new_new.py" output="screen"/>
+  <node name="vec3_sub" pkg="vec3_to_cmd" type="vec3_subscribe_moveToBase.py" output="screen"/>
 
   <!-- 2D Pose 시각화 실행 -->
-  <node name="pose_viz" pkg="convert2d_pose" type="2d_pose_show_newnew.py" />
+  <node name="pose_viz" pkg="convert2d_pose" type="2d_pose_show.py" />
 
   <!-- initial pose를 Stella SLAM camera_pose 위치로 자동 갱신 -->
   <!--
